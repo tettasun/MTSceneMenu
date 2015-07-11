@@ -8,7 +8,7 @@ public class MTSceneMenuGenerator : Editor {
 	
 	private static string openerPath = "/Editor/MTSceneMenu.cs";
 	
-	[MenuItem("Scenes/UpdateScenes")]
+	[MenuItem("Scenes/UpdateScenes", false, 100)]
 	private static void UpdateScenes()
 	{
 		string filePath = Application.dataPath + openerPath;
